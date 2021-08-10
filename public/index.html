@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -29,6 +33,26 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script>
+      window.onload = function () {
+        lax.init()
+    
+        // Add a driver that we use to control our animations
+        lax.addDriver('scrollY', function () {
+          return window.scrollY
+        })
+    
+        // Add animation bindings to elements
+        lax.addElements('.selector', {
+          scrollY: {
+            translateX: [
+              ["elInY", "elCenterY", "elOutY"],
+              [0, 'screenWidth/2', 'screenWidth'],
+            ]
+          }
+        })
+      }
+    </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
