@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <Router>
-        <Homepage path="/homepage" />
-        <Redirect from="/" to="/homepage" noThrow="true" />
+        <Homepage path="/" />
+        {/* <Redirect from="/" to="/homepage" noThrow="true" /> */}
 
 
       </Router>

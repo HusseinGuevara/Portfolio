@@ -156,6 +156,9 @@
         left: 16px;
         top: 3910px;
     }
+    .skills-hr {
+        position: relative;
+    }
     .skills-h1 {
         font-size: 36px;
         position: absolute;
@@ -247,6 +250,259 @@
     }
     .message-line { 
         width: 991px;;
+    }
+}
+
+/* Ipad  */
+@media only screen and (max-width: 769px) and (max-height: 1025px) {
+    .tsparticles-canvas-el {
+        height: 730px;
+    }
+    .first-parallax {
+        height: 730px;
+        background-color:black;
+    }
+    .home-container{
+        width: 100%;
+        position: absolute;
+        top: 28%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .home-h1 {
+        font-size: 32px;
+        color: white;
+    }
+    .home-h1-firstname {
+        font-size: 68px;
+        color: white;
+    }
+    .home-h1-lastname {
+        font-size: 68px;
+        color: white;
+    }
+    .about-me-container {
+        height: 305px;
+        background-color:white ;
+        backface-visibility: hidden;
+        color: black;
+        display: flex;
+    
+    }
+    
+    .about-me-container img{
+        width: 370px;
+        position: absolute;
+        left: 11px;
+        top: 820px;
+        border-radius: 2px;
+    }
+    
+    .about-me-text {
+        width: 358px;
+        text-align: left;
+        position: absolute;
+        right: 15px;
+        top: 813px;
+        font-size: 14px;
+    }
+    
+    .about-me-text h6 {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 14px;
+    }
+    .container-between-about-work {
+        height: 500px;
+        width: 100%;
+        background-color: black;
+    }
+    .second-qoute {
+        position: absolute;
+        top: 1266px;
+        left: 151px;
+        color: white;
+        width: 500px;
+        font-size: 26px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .work-container {
+        height: 639px;
+    }
+    .work-text-1 {
+        width: 365px;
+        position: absolute;
+        left: 12px;
+        top: 1617px;
+    }
+    .work-h1 {
+        font-size: 36px;
+    }
+    .work-h3 {
+        padding-top: 10px;
+        font-size: 17px;
+    }
+    .work-text-1 a {
+        color: black;
+        padding-top: 2px;
+        left: -10px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .work-img img {
+        width: 100%;
+        padding-top: 18px;
+        height: 300px;
+    }
+    .work-p {
+        padding-top: 8px;
+        font-size: 20px;
+    }
+    .work-text-2 {
+        top: 1660px;
+        position: absolute;
+        right: 11px;
+        width: 368px;
+    }
+    .work-h6-2 {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .work-text-2 a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        left: -9px;
+    }
+    .img-2 {
+        width: 100%;
+        padding-top: 18px;
+        height: 300px;
+    }
+    .work-p-2 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .container-between-work-skills {
+        height: 552px;
+        width: 100%;
+        background-color: black;
+    }
+    .third-qoute {
+        color: white;
+        position: absolute;
+        top: 2422px;
+        width: 414px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+        left: 197px;
+    }
+    .skills-container {
+        height: 855px;
+    }
+    .skills-text {
+        width: 395px;
+        position: absolute;
+        left: 16px;
+        top: 3910px;
+    }
+    .skills-hr {
+        position: relative;
+    }
+    .skills-h1 {
+        font-size: 36px;
+        position: absolute;
+        top: -1093px;
+    }
+    .skills-images-table {
+        position: absolute;
+        top:2879px;
+        left: 15px;
+    }
+    .skills-images-table ul {
+        display: table;
+    }
+    .skills-images-table img {
+        width: 174px;
+        padding: 7px;
+    }
+    .container-between-skills-contact {
+        height: 577px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 3678px;
+    }
+    .fourth-qoute {
+        position: absolute;
+        top: 193px;
+        color: white;
+        font-size: 34px;
+        font-weight: 100;
+        left: 210px;
+        width: 400px;
+        text-align: center;
+    }
+    .contact-container {
+        height: 850px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 4258px;
+    }
+    .contact-text {
+        width: 730px;
+        left: 16px;
+        position: absolute;
+        top: 10px;
+    }
+    .github-h {
+        position: absolute;
+        left: 85px;
+        top: 252px;
+        font-size: 26px;
+    }
+    .instagram-h {
+        position: absolute;
+        left: 85px;
+        top: 193px;
+        font-size: 26px;
+    }
+    .facebook-h {
+        position: absolute;
+        left: 85px;
+        top: 137px;
+        font-size: 26px;
+    }
+    .linkedin-h {
+        position: absolute;
+        left: 85px;
+        top: 83px;
+        font-size: 26px;
+    }
+    .email-container {
+        width: 96%;
+        position: absolute;
+        top: 335px;
+        left: 17px;
+    } 
+    div.MuiFormControl-root {
+        margin-bottom: 30px;
+    }
+    .subject-line {
+        width: 723px;
+    }   
+    .email-line {
+        width: 723px;
+    }
+    .name-line {
+        width: 723px;
+    }
+    .message-line { 
+        width: 723px;;
     }
 }
 
@@ -413,7 +669,7 @@
         padding-top: 5px;
     }
     .container-between-work-skills {
-        height: 700px;
+        height: 650px;
         width: 100%;
         background-color: black;
     }
@@ -444,7 +700,7 @@
     }
     .skills-images-table {
         position: absolute;
-        top:4000px;
+        top:3975px;
         left: 15px;
     }
     .skills-images-table ul {
@@ -694,7 +950,7 @@
         padding-top: 5px;
     }
     .container-between-work-skills {
-        height: 700px;
+        height: 650px;
         width: 100%;
         background-color: black;
     }
@@ -722,7 +978,7 @@
     }
     .skills-images-table {
         position: absolute;
-        top:4000px;
+        top:3950px;
         left: 35px;
     }
     .skills-images-table ul {
@@ -972,7 +1228,7 @@
         padding-top: 5px;
     }
     .container-between-work-skills {
-        height: 700px;
+        height: 650px;
         width: 100%;
         background-color: black;
     }
@@ -1000,7 +1256,7 @@
     }
     .skills-images-table {
         position: absolute;
-        top:4000px;
+        top:3975px;
         left: 13px;
     }
     .skills-images-table ul {
@@ -1238,7 +1494,7 @@
         padding-top: 5px;
     }
     .container-between-work-skills {
-        height: 700px;
+        height: 668px;
         width: 100%;
         background-color: black;
     }
@@ -1266,7 +1522,7 @@
     }
     .skills-images-table {
         position: absolute;
-        top:4000px;
+        top:3950px;
         left: 16px;
     }
     .skills-images-table ul {
@@ -1346,6 +1602,256 @@
     }
     .message-line { 
         width: 340px;;
+    }
+}
+
+/* IPhone X LandScape */
+@media only screen and (max-width: 813px) and (max-height: 376px) {
+    a.nav-links {
+        font-size: 22px;
+        padding: 0;
+    }
+    .tsparticles-canvas-el {
+        height: 400px;
+    }
+    .first-parallax {
+        height: 400px;
+        background-color:black;
+    }
+    .home-container{
+        width: 100%;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 370px;
+        text-align: center;
+    }
+    h1.home-h1 {
+        color: white;
+        font-size: 24px;
+        font-weight: 100;
+    }
+    .home-h1-firstname {
+        color: white;
+        font-size: 60px;
+    }
+    .home-h1-lastname {
+        color: white;
+        font-size: 60px;
+    }
+    .about-me-container {
+        height: 378px;
+    }
+    .about-me-container img {
+        position: absolute;
+        top: 506px;
+        width: 430px;
+        left: 23px;
+    }
+    .about-me-text h6{
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 14px;
+    }
+    .about-me-p {
+        font-size: 15px;
+    }
+    .about-me-text {
+        width: 319px;
+        position: absolute;
+        right: 26px;
+        top: 498px;
+        font-size: 15px;
+    }
+    .container-between-about-work {
+        height: 419px;
+        width: 100%;
+        background-color: black;
+    }    
+    .second-qoute {
+        color: white;
+        top: 960px;
+        position: absolute;
+        left: 108px;
+        width: 600px;
+        font-weight: 100;
+    }
+    .work-container {
+        height: 639px;
+    }
+    .work-text-1 {
+        width: 390px;
+        position: absolute;
+        left: 12px;
+        top: 1280px;
+    }
+    .work-h1 {
+        font-size: 36px;
+    }
+    .work-h3 {
+        padding-top: 10px;
+        font-size: 17px;
+    }
+    .work-text-1 a {
+        color: black;
+        padding-top: 2px;
+        left: -10px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .work-img img {
+        width: 100%;
+        padding-top: 18px;
+        height: 300px;
+    }
+    .work-p {
+        padding-top: 8px;
+        font-size: 20px;
+    }
+    .work-text-2 {
+        top: 1323px;
+        position: absolute;
+        right: 11px;
+        width: 390px;
+    }
+    .work-h6-2 {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .work-text-2 a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        left: -9px;
+    }
+    .img-2 {
+        width: 100%;
+        padding-top: 18px;
+        height: 300px;
+    }
+    .work-p-2 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .container-between-work-skills {
+        height: 390px;
+        width: 100%;
+        background-color: black;
+    }
+    .third-qoute {
+        color: white;
+        position: absolute;
+        top: 1995px;
+        width: 414px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+        left: 197px;
+    }
+    .skills-container {
+        height: 855px;
+    }
+    .skills-text {
+        width: 395px;
+        position: absolute;
+        left: 16px;
+        top: 3910px;
+    }
+    .skills-hr {
+        position: relative;
+    }
+    .skills-h1 {
+        font-size: 36px;
+        position: absolute;
+        top: -1587px;
+    }
+    .skills-images-table {
+        position: absolute;
+        top:2380px;
+        left: 15px;
+    }
+    .skills-images-table ul {
+        display: table;
+    }
+    .skills-images-table img {
+        width: 180px;
+        padding: 7px;
+    }
+    .container-between-skills-contact {
+        height: 377px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 3213px;
+    }
+    .fourth-qoute {
+        position: absolute;
+        top: 100px;
+        color: white;
+        font-size: 34px;
+        font-weight: 100;
+        left: 210px;
+        width: 400px;
+        text-align: center;
+    }
+    .contact-container {
+        height: 850px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 3596px;
+    }
+    .contact-text {
+        width: 730px;
+        left: 16px;
+        position: absolute;
+        top: 10px;
+    }
+    .github-h {
+        position: absolute;
+        left: 85px;
+        top: 252px;
+        font-size: 26px;
+    }
+    .instagram-h {
+        position: absolute;
+        left: 85px;
+        top: 193px;
+        font-size: 26px;
+    }
+    .facebook-h {
+        position: absolute;
+        left: 85px;
+        top: 137px;
+        font-size: 26px;
+    }
+    .linkedin-h {
+        position: absolute;
+        left: 85px;
+        top: 83px;
+        font-size: 26px;
+    }
+    .email-container {
+        width: 96%;
+        position: absolute;
+        top: 335px;
+        left: 17px;
+    } 
+    div.MuiFormControl-root {
+        margin-bottom: 30px;
+    }
+    .subject-line {
+        width: 775px;
+    }   
+    .email-line {
+        width: 775px;
+    }
+    .name-line {
+        width: 775px;
+    }
+    .message-line { 
+        width: 775px;;
     }
 }
 
@@ -1458,7 +1964,7 @@
         height: 1054px;
     }
     .work-text-1 {
-        width: 371px;
+        width: 387px;
         position: absolute;
         right: 22px;
         top: 2164px;
@@ -1512,7 +2018,7 @@
         padding-top: 5px;
     }
     .container-between-work-skills {
-        height: 700px;
+        height: 655px;
         width: 100%;
         background-color: black;
     }
@@ -1537,11 +2043,11 @@
     }
     .skills-h1 {
         font-size: 36px;
-        top: 8px;
+        top: -52px;
     }
     .skills-images-table {
         position: absolute;
-        top:4000px;
+        top:3963px;
         left: 35px;
     }
     .skills-images-table ul {
@@ -1580,9 +2086,6 @@
         left: 16px;
         position: absolute;
         top: 10px;
-    }
-    .contact-h1 {
-
     }
     .github-h {
         position: absolute;
@@ -1631,8 +2134,261 @@
     }
 }
 
+/* IPhone 6/7/8 Plus  Landscape*/
+@media only screen and (max-width: 737px) and (max-height: 415px) {
+    .tsparticles-canvas-el {
+        height: 590px;
+    }
+    .first-parallax {
+        height: 590px;
+        background-color:black;
+    }
+    .home-container{
+        width: 100%;
+        position: absolute;
+        top: 59%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .home-h1 {
+        font-size: 32px;
+        color: white;
+    }
+    .home-h1-firstname {
+        font-size: 68px;
+        color: white;
+    }
+    .home-h1-lastname {
+        font-size: 68px;
+        color: white;
+    }
+    .about-me-container {
+        height: 324px;
+        background-color:white ;
+        backface-visibility: hidden;
+        color: black;
+        display: flex;
+    
+    }
+    
+    .about-me-container img{
+        width: 370px;
+        position: absolute;
+        left: 11px;
+        top: 683px;
+        border-radius: 2px;
+    }
+    
+    .about-me-text {
+        width: 328px;
+        text-align: left;
+        position: absolute;
+        right: 15px;
+        top: 679px;
+        font-size: 14px;
+    }
+    
+    .about-me-text h6 {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 14px;
+    }
+    .container-between-about-work {
+        height: 400px;
+        width: 100%;
+        background-color: black;
+    }
+    .second-qoute {
+        position: absolute;
+        top: 1073px;
+        left: 133px;
+        color: white;
+        width: 500px;
+        font-size: 26px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .work-container {
+        height: 639px;
+    }
+    .work-text-1 {
+        width: 350px;
+        position: absolute;
+        left: 12px;
+        top: 1400px;
+    }
+    .work-h1 {
+        font-size: 36px;
+    }
+    .work-h3 {
+        padding-top: 10px;
+        font-size: 17px;
+    }
+    .work-text-1 a {
+        color: black;
+        padding-top: 2px;
+        left: -10px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .work-img img {
+        width: 100%;
+        padding-top: 18px;
+        height: 300px;
+    }
+    .work-p {
+        padding-top: 8px;
+        font-size: 20px;
+    }
+    .work-text-2 {
+        top: 1444px;
+        position: absolute;
+        right: 11px;
+        width: 350px;
+    }
+    .work-h6-2 {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .work-text-2 a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        left: -9px;
+    }
+    .img-2 {
+        width: 100%;
+        padding-top: 18px;
+        height: 300px;
+    }
+    .work-p-2 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .container-between-work-skills {
+        height: 400px;
+        width: 100%;
+        background-color: black;
+    }
+    .third-qoute {
+        color: white;
+        position: absolute;
+        top: 2127px;
+        width: 414px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+        left: 175px;
+    }
+    .skills-container {
+        height: 855px;
+    }
+    .skills-text {
+        width: 395px;
+        position: absolute;
+        left: 16px;
+        top: 3910px;
+    }
+    .skills-hr {
+        position: relative;
+    }
+    .skills-h1 {
+        font-size: 36px;
+        position: absolute;
+        top: -1465px;
+    }
+    .skills-images-table {
+        position: absolute;
+        top:2491px;
+        left: 15px;
+    }
+    .skills-images-table ul {
+        display: table;
+    }
+    .skills-images-table img {
+        width: 165px;
+        padding: 7px;
+    }
+    .container-between-skills-contact {
+        height: 451px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 3260px;
+    }
+    .fourth-qoute {
+        position: absolute;
+        top: 127px;
+        color: white;
+        font-size: 34px;
+        font-weight: 100;
+        left: 194px;
+        width: 400px;
+        text-align: center;
+    }
+    .contact-container {
+        height: 850px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 3712px;
+    }
+    .contact-text {
+        width: 707px;
+        left: 16px;
+        position: absolute;
+        top: 10px;
+    }
+    .github-h {
+        position: absolute;
+        left: 85px;
+        top: 252px;
+        font-size: 26px;
+    }
+    .instagram-h {
+        position: absolute;
+        left: 85px;
+        top: 193px;
+        font-size: 26px;
+    }
+    .facebook-h {
+        position: absolute;
+        left: 85px;
+        top: 137px;
+        font-size: 26px;
+    }
+    .linkedin-h {
+        position: absolute;
+        left: 85px;
+        top: 83px;
+        font-size: 26px;
+    }
+    .email-container {
+        width: 96%;
+        position: absolute;
+        top: 335px;
+        left: 17px;
+    } 
+    div.MuiFormControl-root {
+        margin-bottom: 30px;
+    }
+    .subject-line {
+        width: 711px;
+    }   
+    .email-line {
+        width: 711px;
+    }
+    .name-line {
+        width: 711px;
+    }
+    .message-line { 
+        width: 711px;;
+    }
+}
+
 /* Iphone 6/7/8 */
-@media  only screen and (max-width:376px) and (max-height:668px) {
+@media only screen and (max-width:376px) and (max-height:668px) {
     .NavbarItems {
         position: relative;
     }
@@ -1782,7 +2538,7 @@
         padding-top: 5px;
     }
     .container-between-work-skills {
-        height: 700px;
+        height: 655px;
         width: 100%;
         background-color: black;
     }
@@ -1810,7 +2566,7 @@
     }
     .skills-images-table {
         position: absolute;
-        top:4000px;
+        top:3950px;
         left: 16px;
     }
     .skills-images-table ul {
@@ -1893,8 +2649,264 @@
     }
 }
 
+/* IPhone 6/7/8 LandScape */
+@media only screen and (max-width: 668px) and (max-height: 376px) {
+    .tsparticles-canvas-el {
+        height: 476px;
+    }
+    .first-parallax {
+        height: 476px;
+        background-color:black;
+    }
+    .home-container{
+        width: 96%;
+        position: absolute;
+        top: 78%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .home-h1 {
+        font-size: 32px;
+        color: white;
+    }
+    .home-h1-firstname {
+        font-size: 68px;
+        color: white;
+    }
+    .home-h1-lastname {
+        font-size: 68px;
+        color: white;
+    }
+    .about-me-container {
+        height: 320px;
+        background-color:white ;
+        backface-visibility: hidden;
+        color: black;
+        display: flex;
+    
+    }
+    
+    .about-me-container img{
+        width: 351px;
+        position: absolute;
+        left: 11px;
+        top: 566px;
+        border-radius: 2px;
+    }
+    
+    .about-me-text {
+        width: 284px;
+        text-align: left;
+        position: absolute;
+        right: 13px;
+        top: 560px;
+        font-size: 14px;
+    }
+    .about-me-p {
+        font-size: 13.5px;;
+    }
+    
+    .about-me-text h6 {
+        /* padding-top: 4px;
+        padding-bottom: 4px; */
+        font-size: 12.5px;
+    }
+    .container-between-about-work {
+        height: 400px;
+        width: 100%;
+        background-color: black;
+    }
+    .second-qoute {
+        position: absolute;
+        top: 972px;
+        left: 90px;
+        color: white;
+        width: 500px;
+        font-size: 26px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .work-container {
+        height: 639px;
+    }
+    .work-text-1 {
+        width: 320px;
+        position: absolute;
+        left: 12px;
+        top: 1282px;
+    }
+    .work-h1 {
+        font-size: 36px;
+    }
+    .work-h3 {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .work-text-1 a {
+        color: black;
+        padding-top: 2px;
+        left: -10px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .work-img img {
+        width: 100%;
+        padding-top: 18px;
+        height: 250px;
+    }
+    .work-p {
+        padding-top: 8px;
+        font-size: 20px;
+    }
+    .work-text-2 {
+        top: 1326px;
+        position: absolute;
+        right: 11px;
+        width: 300px;
+    }
+    .work-h6-2 {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .work-text-2 a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        left: -9px;
+    }
+    .img-2 {
+        width: 100%;
+        padding-top: 18px;
+        height: 249px;
+    }
+    .work-p-2 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .container-between-work-skills {
+        height: 400px;
+        width: 100%;
+        background-color: black;
+    }
+    .third-qoute {
+        color: white;
+        position: absolute;
+        top: 2007px;
+        width: 414px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+        left: 142px;
+    }
+    .skills-container {
+        height: 855px;
+    }
+    .skills-text {
+        width: 395px;
+        position: absolute;
+        left: 16px;
+        top: 3910px;
+    }
+    .skills-hr {
+        position: relative;
+    }
+    .skills-h1 {
+        font-size: 36px;
+        position: absolute;
+        top: -1578px;
+    }
+    .skills-images-table {
+        position: absolute;
+        top: 2389px;
+        left: 10px;
+    }
+    .skills-images-table ul {
+        display: table;
+    }
+    .skills-images-table img {
+        width: 147px;
+        padding: 7px;
+    }
+    .container-between-skills-contact {
+        height: 401px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 3085px;
+    }
+    .fourth-qoute {
+        position: absolute;
+        top: 97px;
+        color: white;
+        font-size: 34px;
+        font-weight: 100;
+        left: 154px;
+        width: 400px;
+        text-align: center;
+    }
+    .contact-container {
+        height: 850px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 3488px;
+    }
+    .contact-text {
+        width: 641px;
+        left: 16px;
+        position: absolute;
+        top: 10px;
+    }
+    .github-h {
+        position: absolute;
+        left: 85px;
+        top: 252px;
+        font-size: 26px;
+    }
+    .instagram-h {
+        position: absolute;
+        left: 85px;
+        top: 193px;
+        font-size: 26px;
+    }
+    .facebook-h {
+        position: absolute;
+        left: 85px;
+        top: 137px;
+        font-size: 26px;
+    }
+    .linkedin-h {
+        position: absolute;
+        left: 85px;
+        top: 83px;
+        font-size: 26px;
+    }
+    .email-container {
+        width: 96%;
+        position: absolute;
+        top: 335px;
+        left: 17px;
+    } 
+    div.MuiFormControl-root {
+        margin-bottom: 30px;
+    }
+    .subject-line {
+        width: 629px;
+    }   
+    .email-line {
+        width: 629px;
+    }
+    .name-line {
+        width: 629px;
+    }
+    .message-line { 
+        width: 629px;;
+    }
+}
+
 /* Iphone 5/Se */
-@media  only screen and (max-width:321px) and (max-height:569px) {
+@media only screen and (max-width:321px) and (max-height:569px) {
     .NavbarItems {
         position: relative;
     }
@@ -1953,7 +2965,7 @@
         width: 290px;
         position: absolute;
         left: 16px;
-        top: 1358px;
+        top: 1379px;
         border-radius: 2px;
     }
     .about-me-text {
@@ -2043,7 +3055,7 @@
         padding-top: 5px;
     }
     .container-between-work-skills {
-        height: 700px;
+        height: 650px;
         width: 100%;
         background-color: black;
     }
@@ -2071,7 +3083,7 @@
     }
     .skills-images-table {
         position: absolute;
-        top:4000px;
+        top:3975px;
         left: 10px;
     }
     .skills-images-table ul {
@@ -2158,100 +3170,12 @@
     }
 }
 
-
-
-/* Iphone x Landscape */
-@media (orientation: landscape) {
-    a.nav-links {
-        font-size: 22px;
-        padding: 0;
-    }
-    .tsparticles-canvas-el {
-        height: 400px;
-    }
-    .first-parallax {
-        height: 400px;
-        background-color:black;
-    }
-    .home-container{
-        width: 100%;
-        position: absolute;
-        top: 75%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        height: 370px;
-        text-align: center;
-    }
-    h1.home-h1 {
-        color: white;
-        font-size: 24px;
-        font-weight: 100;
-    }
-    .home-h1-firstname {
-        color: white;
-        font-size: 60px;
-    }
-    .home-h1-lastname {
-        color: white;
-        font-size: 60px;
-    }
-    .about-me-container {
-        height: 378px;
-    }
-    .about-me-container img {
-        position: absolute;
-        top: 506px;
-        width: 430px;
-        left: 23px;
-    }
-    .about-me-text h6{
-        padding-top: 2px;
-        padding-bottom: 2px;
-        font-size: 14px;
-    }
-    .about-me-p {
-        font-size: 15px;
-    }
-    .about-me-text {
-        width: 300px;
-        position: absolute;
-        right: 26px;
-        top: 498px;
-        font-size: 15px;
-    }
-    .container-between-about-work {
-        height: 419px;
-        width: 100%;
-        background-color: black;
-    }    
-    .second-qoute {
-        color: white;
-        top: 960px;
-        position: absolute;
-        left: 108px;
-        width: 600px;
-        font-weight: 100;
-    }
+/* IPhone 5/SE Landscape */ 
+@media only screen and (max-width:569px) and (max-height: 321px) {
 
 }
 
-/* HomePage */
-/* Media Query */
-@media only screen and (max-width:400px) {
-    h1.home-h1 {
-        color: white;
-        font-size: 24px;
-        font-weight: 100;
-    }
-    .home-h1-firstname {
-        color: white;
-        font-size: 60px;
-    }
-    .home-h1-lastname {
-        color: white;
-        font-size: 60px;
-    }
-    .about-me-text {
-        left: 20px;
-    }
-}
+
+
+
+

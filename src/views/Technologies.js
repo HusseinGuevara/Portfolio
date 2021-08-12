@@ -20,7 +20,7 @@ const Technologies = () => {
         <div className="skills-container">
             <div className="skills-text">
                 <h1 className="skills-h1">Technologies I Know</h1>
-                <hr/>
+                <hr className="skills-hr"/>
             </div>
             <div className="skills-images-table">
                 <ul>
