@@ -253,6 +253,261 @@
     }
 }
 
+/* IPad Pro Lanscape */
+@media only screen and (max-width: 1367px) and (max-height: 1025px) {
+    .tsparticles-canvas-el {
+        height: 730px;
+    }
+    .first-parallax {
+        height: 730px;
+        background-color:black;
+    }
+    .home-container{
+        width: 96%;
+        position: absolute;
+        top: 38%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .home-h1 {
+        font-size: 32px;
+        color: white;
+    }
+    .home-h1-firstname {
+        font-size: 68px;
+        color: white;
+    }
+    .home-h1-lastname {
+        font-size: 68px;
+        color: white;
+    }
+    .about-me-container {
+        height: 537px;
+        background-color:white ;
+        backface-visibility: hidden;
+        color: black;
+        display: flex;
+    
+    }
+    
+    .about-me-container img{
+        width: 650px;
+        position: absolute;
+        left: 16px;
+        top: 836px;
+        border-radius: 2px;
+    }
+    
+    .about-me-text {
+        width: 671px;
+        text-align: left;
+        position: absolute;
+        right: 15px;
+        top: 827px;
+        font-size: 20px;
+    }
+    .about-me-p {
+        font-size: 28px;
+    }
+    .about-me-text h6 {
+        padding-top: 10px;
+        padding-bottom: 11px;
+        font-size: 26px;
+    }
+    .container-between-about-work {
+        height: 500px;
+        width: 100%;
+        background-color: black;
+    }
+    .second-qoute {
+        position: absolute;
+        top: 1413px;
+        left: 439px;
+        color: white;
+        width: 500px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .work-container {
+        height: 659px;
+    }
+    .work-text-1 {
+        width: 650px;
+        position: absolute;
+        left: 22px;
+        top: 1848px;
+    }
+    .work-h1 {
+        font-size: 36px;
+    }
+    .work-h3 {
+        padding-top: 10px;
+        font-size: 24px;
+    }
+    .work-text-1 a {
+        color: black;
+        padding-top: 2px;
+        left: -10px;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    .work-img img {
+        width: 100%;
+        padding-top: 18px;
+        
+    }
+    .work-p {
+        padding-top: 8px;
+        font-size: 24px;
+    }
+    .work-text-2 {
+        top: 1891px;
+        position: absolute;
+        right: 20px;
+        width: 650px;
+    }
+    .work-h6-2 {
+        font-size: 24px;
+        padding-top: 12px;
+    }
+    .work-text-2 a {
+        color: black;
+        text-decoration: none;
+        font-size: 22px;
+        left: -9px;
+    }
+    .img-2 {
+        width: 100%;
+        padding-top: 18px;
+    }
+    .work-p-2 {
+        font-size: 24px;
+        padding-top: 5px;
+    }
+    .container-between-work-skills {
+        height: 552px;
+        width: 100%;
+        background-color: black;
+    }
+    .third-qoute {
+        color: white;
+        position: absolute;
+        top: 2626px;
+        width: 414px;
+        font-size: 43px;
+        font-weight: 100;
+        text-align: center;
+        left: 485px;
+    }
+    .skills-container {
+        height: 855px;
+    }
+    .skills-text {
+        width: 395px;
+        position: absolute;
+        left: 16px;
+        top: 4052px;
+    }
+    .skills-hr {
+        position: relative;
+    }
+    .skills-h1 {
+        font-size: 36px;
+        position: absolute;
+        top: -978px;
+    }
+    .skills-images-table {
+        position: absolute;
+        top:3120px;
+        left: 15px;
+    }
+    .skills-images-table ul {
+        display: table;
+    }
+    .skills-images-table img {
+        width: 319px;
+        padding: 7px;
+    }
+    .container-between-skills-contact {
+        height: 577px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 4494px;
+    }
+    .fourth-qoute {
+        position: absolute;
+        top: 146px;
+        color: white;
+        font-size: 44px;
+        font-weight: 100;
+        left: 489px;
+        width: 400px;
+        text-align: center;
+
+    }
+    .contact-container {
+        height: 900px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 5000px;
+    }
+    .contact-text {
+        width: 1325px;
+        left: 16px;
+        position: absolute;
+        top: 10px;
+    }
+    .github-h {
+        position: absolute;
+        left: 85px;
+        top: 252px;
+        font-size: 26px;
+    }
+    .instagram-h {
+        position: absolute;
+        left: 85px;
+        top: 193px;
+        font-size: 26px;
+    }
+    .facebook-h {
+        position: absolute;
+        left: 85px;
+        top: 137px;
+        font-size: 26px;
+    }
+    .linkedin-h {
+        position: absolute;
+        left: 85px;
+        top: 83px;
+        font-size: 26px;
+    }
+    .email-container {
+        width: 96%;
+        position: absolute;
+        top: 335px;
+        left: 17px;
+    } 
+    div.MuiFormControl-root {
+        margin-bottom: 30px;
+    }
+    .subject-line {
+        width: 1325px;
+    }   
+    .email-line {
+        width: 1325px;
+    }
+    .name-line {
+        width: 1325px;
+    }
+    .message-line { 
+        width: 1325px;;
+    }
+}
+
 /* Ipad  */
 @media only screen and (max-width: 769px) and (max-height: 1025px) {
     .tsparticles-canvas-el {
@@ -305,6 +560,9 @@
         position: absolute;
         right: 15px;
         top: 813px;
+        font-size: 14px;
+    }
+    .about-me-p {
         font-size: 14px;
     }
     
@@ -506,6 +764,261 @@
     }
 }
 
+/* IPad Landscape */
+@media only screen and (max-width: 1025px) and (max-height: 769px) {
+    .tsparticles-canvas-el {
+        height: 730px;
+    }
+    .first-parallax {
+        height: 730px;
+        background-color:black;
+    }
+    .home-container{
+        width: 96%;
+        position: absolute;
+        top: 45%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .home-h1 {
+        font-size: 32px;
+        color: white;
+    }
+    .home-h1-firstname {
+        font-size: 68px;
+        color: white;
+    }
+    .home-h1-lastname {
+        font-size: 68px;
+        color: white;
+    }
+    .about-me-container {
+        height: 460px;
+        background-color:white ;
+        backface-visibility: hidden;
+        color: black;
+        display: flex;
+    
+    }
+    
+    .about-me-container img{
+        width: 480px;
+        position: absolute;
+        left: 16px;
+        top: 836px;
+        border-radius: 2px;
+    }
+    
+    .about-me-text {
+        width: 498px;
+        text-align: left;
+        position: absolute;
+        right: 15px;
+        top: 827px;
+        font-size: 20px;
+    }
+    .about-me-p {
+        font-size: 20px;
+    }
+    .about-me-text h6 {
+        padding-top: 10px;
+        padding-bottom: 11px;
+        font-size: 18px;
+    }
+    .container-between-about-work {
+        height: 500px;
+        width: 100%;
+        background-color: black;
+    }
+    .second-qoute {
+        position: absolute;
+        top: 1354px;
+        left: 301px;
+        color: white;
+        width: 500px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .work-container {
+        height: 659px;
+    }
+    .work-text-1 {
+        width: 480px;
+        position: absolute;
+        left: 22px;
+        top: 1777px;
+    }
+    .work-h1 {
+        font-size: 36px;
+    }
+    .work-h3 {
+        padding-top: 10px;
+        font-size: 22px;
+    }
+    .work-text-1 a {
+        color: black;
+        padding-top: 2px;
+        left: -10px;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    .work-img img {
+        width: 100%;
+        padding-top: 18px;
+        
+    }
+    .work-p {
+        padding-top: 8px;
+        font-size: 24px;
+    }
+    .work-text-2 {
+        top: 1820px;
+        position: absolute;
+        right: 20px;
+        width: 480px;
+    }
+    .work-h6-2 {
+        font-size: 24px;
+        padding-top: 12px;
+    }
+    .work-text-2 a {
+        color: black;
+        text-decoration: none;
+        font-size: 22px;
+        left: -9px;
+    }
+    .img-2 {
+        width: 100%;
+        padding-top: 18px;
+    }
+    .work-p-2 {
+        font-size: 24px;
+        padding-top: 5px;
+    }
+    .container-between-work-skills {
+        height: 552px;
+        width: 100%;
+        background-color: black;
+    }
+    .third-qoute {
+        color: white;
+        position: absolute;
+        top: 2554px;
+        width: 414px;
+        font-size: 43px;
+        font-weight: 100;
+        text-align: center;
+        left: 346px;
+    }
+    .skills-container {
+        height: 855px;
+    }
+    .skills-text {
+        width: 395px;
+        position: absolute;
+        left: 16px;
+        top: 4052px;
+    }
+    .skills-hr {
+        position: relative;
+    }
+    .skills-h1 {
+        font-size: 36px;
+        position: absolute;
+        top: -1041px;
+    }
+    .skills-images-table {
+        position: absolute;
+        top:3068px;
+        left: 15px;
+    }
+    .skills-images-table ul {
+        display: table;
+    }
+    .skills-images-table img {
+        width: 236px;
+        padding: 7px;
+    }
+    .container-between-skills-contact {
+        height: 577px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 4115px;
+    }
+    .fourth-qoute {
+        position: absolute;
+        top: 146px;
+        color: white;
+        font-size: 44px;
+        font-weight: 100;
+        left: 347px;
+        width: 400px;
+        text-align: center;
+
+    }
+    .contact-container {
+        height: 829px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 4693px;
+    }
+    .contact-text {
+        width: 987px;
+        left: 16px;
+        position: absolute;
+        top: 10px;
+    }
+    .github-h {
+        position: absolute;
+        left: 85px;
+        top: 252px;
+        font-size: 26px;
+    }
+    .instagram-h {
+        position: absolute;
+        left: 85px;
+        top: 193px;
+        font-size: 26px;
+    }
+    .facebook-h {
+        position: absolute;
+        left: 85px;
+        top: 137px;
+        font-size: 26px;
+    }
+    .linkedin-h {
+        position: absolute;
+        left: 85px;
+        top: 83px;
+        font-size: 26px;
+    }
+    .email-container {
+        width: 96%;
+        position: absolute;
+        top: 335px;
+        left: 17px;
+    } 
+    div.MuiFormControl-root {
+        margin-bottom: 30px;
+    }
+    .subject-line {
+        width: 987px;
+    }   
+    .email-line {
+        width: 987px;
+    }
+    .name-line {
+        width: 987px;
+    }
+    .message-line { 
+        width: 987px;;
+    }
+}
+
 /* IPhone 12 Pro Max */
 @media only screen and (max-width: 429px) and (max-height: 927px) {
     .NavbarItems {
@@ -590,11 +1103,13 @@
         top: 830px;
         font-size: 19px;
     }
-    
+    .about-me-p {
+        font-size: 20px;
+    }
     .about-me-text h6 {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        font-size: 1rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px;
     }
     .container-between-about-work {
         height: 500px;
@@ -641,7 +1156,7 @@
     }
     .work-p {
         padding-top: 8px;
-        font-size: 18px;
+        font-size: 20px;
     }
     .work-text-2 {
         top: 2705px;
@@ -665,7 +1180,7 @@
         height: 215px;
     }
     .work-p-2 {
-        font-size: 18px;
+        font-size: 20px;
         padding-top: 5px;
     }
     .container-between-work-skills {
@@ -787,6 +1302,261 @@
     }
 }
 
+/* IPhone 12 Pro Max  Landscape*/
+@media only screen and (max-width: 927px) and (max-height: 429px) {
+    .tsparticles-canvas-el {
+        height: 730px;
+    }
+    .first-parallax {
+        height: 430px;
+        background-color:black;
+    }
+    .home-container{
+        width: 100%;
+        position: absolute;
+        top: 56%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .home-h1 {
+        font-size: 32px;
+        color: white;
+    }
+    .home-h1-firstname {
+        font-size: 68px;
+        color: white;
+    }
+    .home-h1-lastname {
+        font-size: 68px;
+        color: white;
+    }
+    .about-me-container {
+        height: 347px;
+        background-color:white ;
+        backface-visibility: hidden;
+        color: black;
+        display: flex;
+    
+    }
+    
+    .about-me-container img{
+        width: 410px;
+        position: absolute;
+        left: 16px;
+        top: 524px;
+        border-radius: 2px;
+    }
+    
+    .about-me-text {
+        width: 469px;
+        text-align: left;
+        position: absolute;
+        right: 15px;
+        top: 513px;
+        font-size: 20px;
+    }
+    .about-me-p {
+        font-size: 18px;
+    }
+    .about-me-text h6 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 15px;
+    }
+    .container-between-about-work {
+        height: 500px;
+        width: 100%;
+        background-color: black;
+    }
+    .second-qoute {
+        position: absolute;
+        top: 932px;
+        left: 230px;
+        color: white;
+        width: 500px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .work-container {
+        height: 618px;
+    }
+    .work-text-1 {
+        width: 440px;
+        position: absolute;
+        left: 17px;
+        top: 1368px;
+    }
+    .work-h1 {
+        font-size: 36px;
+    }
+    .work-h3 {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .work-text-1 a {
+        color: black;
+        padding-top: 2px;
+        left: -10px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .work-img img {
+        width: 100%;
+        padding-top: 18px;
+        height: 300px;
+    }
+    .work-p {
+        padding-top: 8px;
+        font-size: 20px;
+    }
+    .work-text-2 {
+        top: 1411px;
+        position: absolute;
+        right: 20px;
+        width: 440px;
+    }
+    .work-h6-2 {
+        font-size: 18px;
+        padding-top: 12px;
+    }
+    .work-text-2 a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        left: -9px;
+    }
+    .img-2 {
+        width: 100%;
+        padding-top: 18px;
+        height: 300px;
+    }
+    .work-p-2 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .container-between-work-skills {
+        height: 441px;
+        width: 100%;
+        background-color: black;
+    }
+    .third-qoute {
+        color: white;
+        position: absolute;
+        top: 2091px;
+        width: 414px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+        left: 269px;
+    }
+    .skills-container {
+        height: 855px;
+    }
+    .skills-text {
+        width: 395px;
+        position: absolute;
+        left: 16px;
+        top: 3910px;
+    }
+    .skills-hr {
+        position: relative;
+    }
+    .skills-h1 {
+        font-size: 36px;
+        position: absolute;
+        top: -1480px;
+    }
+    .skills-images-table {
+        position: absolute;
+        top:2481px;
+        left: 15px;
+    }
+    .skills-images-table ul {
+        display: table;
+    }
+    .skills-images-table img {
+        width: 210px;
+        padding: 7px;
+    }
+    .container-between-skills-contact {
+        height: 577px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 3435px;
+    }
+    .fourth-qoute {
+        position: absolute;
+        top: 194px;
+        color: white;
+        font-size: 34px;
+        font-weight: 100;
+        left: 283px;
+        width: 400px;
+        text-align: center;
+    }
+    .contact-container {
+        height: 900px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 4016px;
+    }
+    .contact-text {
+        width: 888px;
+        left: 16px;
+        position: absolute;
+        top: 10px;
+    }
+    .github-h {
+        position: absolute;
+        left: 85px;
+        top: 252px;
+        font-size: 26px;
+    }
+    .instagram-h {
+        position: absolute;
+        left: 85px;
+        top: 193px;
+        font-size: 26px;
+    }
+    .facebook-h {
+        position: absolute;
+        left: 85px;
+        top: 137px;
+        font-size: 26px;
+    }
+    .linkedin-h {
+        position: absolute;
+        left: 85px;
+        top: 83px;
+        font-size: 26px;
+    }
+    .email-container {
+        width: 96%;
+        position: absolute;
+        top: 335px;
+        left: 17px;
+    } 
+    div.MuiFormControl-root {
+        margin-bottom: 30px;
+    }
+    .subject-line {
+        width: 890px;
+    }   
+    .email-line {
+        width: 890px;
+    }
+    .name-line {
+        width: 890px;
+    }
+    .message-line { 
+        width: 890px;;
+    }
+}
+
 /* IPhone XSMax/XR/12 */
 @media only screen and (max-width: 415px) and (max-height: 898px) {
     .NavbarItems {
@@ -830,7 +1600,7 @@
         width: 100%;
         position: absolute;
         top: 40%;
-        left: 50%;
+        left: 51%;
         transform: translate(-50%, -50%);
         text-align: center;
     }
@@ -1065,6 +1835,262 @@
     }
 }
 
+/* IPhone XSMax/XR/12 Landscpape */
+@media only screen and (max-width: 898px) and (max-height: 415px) {
+    .tsparticles-canvas-el {
+        height: 730px;
+    }
+    .first-parallax {
+        height: 541px;
+        background-color:black;
+    }
+    .home-container{
+        width: 96%;
+        position: absolute;
+        top: 61%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .home-h1 {
+        font-size: 32px;
+        color: white;
+    }
+    .home-h1-firstname {
+        font-size: 68px;
+        color: white;
+    }
+    .home-h1-lastname {
+        font-size: 68px;
+        color: white;
+    }
+    .about-me-container {
+        height: 345px;
+        background-color:white ;
+        backface-visibility: hidden;
+        color: black;
+        display: flex;
+    
+    }
+    
+    .about-me-container img{
+        width: 420px;
+        position: absolute;
+        left: 16px;
+        top: 634px;
+        border-radius: 2px;
+    }
+    
+    .about-me-text {
+        width: 432px;
+        text-align: left;
+        position: absolute;
+        right: 15px;
+        top: 625px;
+        font-size: 20px;
+    }
+    .about-me-p {
+        font-size: 17px;
+    }
+    
+    .about-me-text h6 {
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 1rem;
+    }
+    .container-between-about-work {
+        height: 500px;
+        width: 100%;
+        background-color: black;
+    }
+    .second-qoute {
+        position: absolute;
+        top: 1050px;
+        left: 228px;
+        color: white;
+        width: 500px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .work-container {
+        height: 618px;
+    }
+    .work-text-1 {
+        width: 430px;
+        position: absolute;
+        left: 22px;
+        top: 1470px;
+    }
+    .work-h1 {
+        font-size: 36px;
+    }
+    .work-h3 {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .work-text-1 a {
+        color: black;
+        padding-top: 2px;
+        left: -10px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .work-img img {
+        width: 100%;
+        padding-top: 18px;
+        height: 300px;
+    }
+    .work-p {
+        padding-top: 8px;
+        font-size: 20px;
+    }
+    .work-text-2 {
+        top: 1513px;
+        position: absolute;
+        right: 20px;
+        width: 413px;
+    }
+    .work-h6-2 {
+        font-size: 18px;
+        padding-top: 12px;
+    }
+    .work-text-2 a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        left: -9px;
+    }
+    .img-2 {
+        width: 100%;
+        padding-top: 18px;
+        height: 300px;
+    }
+    .work-p-2 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .container-between-work-skills {
+        height: 430px;
+        width: 100%;
+        background-color: black;
+    }
+    .third-qoute {
+        color: white;
+        position: absolute;
+        top: 2200px;
+        width: 414px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+        left: 253px;
+    }
+    .skills-container {
+        height: 855px;
+    }
+    .skills-text {
+        width: 395px;
+        position: absolute;
+        left: 16px;
+        top: 3910px;
+    }
+    .skills-hr {
+        position: relative;
+    }
+    .skills-h1 {
+        font-size: 36px;
+        position: absolute;
+        top: -1379px;
+    }
+    .skills-images-table {
+        position: absolute;
+        top:2584px;
+        left: 15px;
+    }
+    .skills-images-table ul {
+        display: table;
+    }
+    .skills-images-table img {
+        width: 203px;
+        padding: 7px;
+    }
+    .container-between-skills-contact {
+        height: 577px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 3500px;
+    }
+    .fourth-qoute {
+        position: absolute;
+        top: 193px;
+        color: white;
+        font-size: 34px;
+        font-weight: 100;
+        left: 262px;
+        width: 400px;
+        text-align: center;
+    }
+    .contact-container {
+        height: 900px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 4082px;
+    }
+    .contact-text {
+        width: 869px;
+        left: 16px;
+        position: absolute;
+        top: 10px;
+    }
+    .github-h {
+        position: absolute;
+        left: 85px;
+        top: 252px;
+        font-size: 26px;
+    }
+    .instagram-h {
+        position: absolute;
+        left: 85px;
+        top: 193px;
+        font-size: 26px;
+    }
+    .facebook-h {
+        position: absolute;
+        left: 85px;
+        top: 137px;
+        font-size: 26px;
+    }
+    .linkedin-h {
+        position: absolute;
+        left: 85px;
+        top: 83px;
+        font-size: 26px;
+    }
+    .email-container {
+        width: 96%;
+        position: absolute;
+        top: 335px;
+        left: 17px;
+    } 
+    div.MuiFormControl-root {
+        margin-bottom: 30px;
+    }
+    .subject-line {
+        width: 864px;
+    }   
+    .email-line {
+        width: 864px;
+    }
+    .name-line {
+        width: 864px;
+    }
+    .message-line { 
+        width: 864px;;
+    }
+}
+
 /* IPhone 12 Pro/ 11 */
 @media only screen and (max-width: 391px) and (max-height: 845px) {
     .NavbarItems {
@@ -1137,7 +2163,7 @@
         width: 358px;
         position: absolute;
         left: 16px;
-        top: 1318px;
+        top: 1332px;
         border-radius: 2px;
     }
     
@@ -1343,6 +2369,262 @@
     }
 }
 
+/* IPhone 12 Pro/ 11 Landscape */
+@media only screen and (max-width: 845px) and (max-height: 391px) {
+    .tsparticles-canvas-el {
+        height: 730px;
+    }
+    .first-parallax {
+        height: 410px;
+        background-color:black;
+    }
+    .home-container{
+        width: 96%;
+        position: absolute;
+        top: 61%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .home-h1 {
+        font-size: 32px;
+        color: white;
+    }
+    .home-h1-firstname {
+        font-size: 68px;
+        color: white;
+    }
+    .home-h1-lastname {
+        font-size: 68px;
+        color: white;
+    }
+    .about-me-container {
+        height: 345px;
+        background-color:white ;
+        backface-visibility: hidden;
+        color: black;
+        display: flex;
+    
+    }
+    
+    .about-me-container img{
+        width: 400px;
+        position: absolute;
+        left: 16px;
+        top: 502px;
+        border-radius: 2px;
+    }
+    
+    .about-me-text {
+        width: 404px;
+        text-align: left;
+        position: absolute;
+        right: 15px;
+        top: 493px;
+        font-size: 20px;
+    }
+    .about-me-p {
+        font-size: 16px;
+    }
+    
+    .about-me-text h6 {
+        padding-top: 1px;
+        padding-bottom: 1px;
+        font-size: 15px;
+    }
+    .container-between-about-work {
+        height: 500px;
+        width: 100%;
+        background-color: black;
+    }
+    .second-qoute {
+        position: absolute;
+        top: 911px;
+        left: 191px;
+        color: white;
+        width: 500px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .work-container {
+        height: 618px;
+    }
+    .work-text-1 {
+        width: 400px;
+        position: absolute;
+        left: 13px;
+        top: 1342px;
+    }
+    .work-h1 {
+        font-size: 36px;
+    }
+    .work-h3 {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    .work-text-1 a {
+        color: black;
+        padding-top: 2px;
+        left: -10px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .work-img img {
+        width: 100%;
+        padding-top: 18px;
+        height: 300px;
+    }
+    .work-p {
+        padding-top: 8px;
+        font-size: 20px;
+    }
+    .work-text-2 {
+        top: 1385px;
+        position: absolute;
+        right: 20px;
+        width: 400px;
+    }
+    .work-h6-2 {
+        font-size: 18px;
+        padding-top: 12px;
+    }
+    .work-text-2 a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        left: -9px;
+    }
+    .img-2 {
+        width: 100%;
+        padding-top: 18px;
+        height: 300px;
+    }
+    .work-p-2 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .container-between-work-skills {
+        height: 430px;
+        width: 100%;
+        background-color: black;
+    }
+    .third-qoute {
+        color: white;
+        position: absolute;
+        top: 2061px;
+        width: 414px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+        left: 232px;
+    }
+    .skills-container {
+        height: 855px;
+    }
+    .skills-text {
+        width: 395px;
+        position: absolute;
+        left: 16px;
+        top: 3910px;
+    }
+    .skills-hr {
+        position: relative;
+    }
+    .skills-h1 {
+        font-size: 36px;
+        position: absolute;
+        top: -1514px;
+    }
+    .skills-images-table {
+        position: absolute;
+        top:2457px;
+        left: 15px;
+    }
+    .skills-images-table ul {
+        display: table;
+    }
+    .skills-images-table img {
+        width: 190px;
+        padding: 7px;
+    }
+    .container-between-skills-contact {
+        height: 445px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 3335px;
+    }
+    .fourth-qoute {
+        position: absolute;
+        top: 142px;
+        color: white;
+        font-size: 34px;
+        font-weight: 100;
+        left: 227px;
+        width: 400px;
+        text-align: center;
+    }
+    .contact-container {
+        height: 900px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 3786px;
+    }
+    .contact-text {
+        width: 812px;
+        left: 16px;
+        position: absolute;
+        top: 10px;
+    }
+    .github-h {
+        position: absolute;
+        left: 85px;
+        top: 252px;
+        font-size: 26px;
+    }
+    .instagram-h {
+        position: absolute;
+        left: 85px;
+        top: 193px;
+        font-size: 26px;
+    }
+    .facebook-h {
+        position: absolute;
+        left: 85px;
+        top: 137px;
+        font-size: 26px;
+    }
+    .linkedin-h {
+        position: absolute;
+        left: 85px;
+        top: 83px;
+        font-size: 26px;
+    }
+    .email-container {
+        width: 96%;
+        position: absolute;
+        top: 335px;
+        left: 17px;
+    } 
+    div.MuiFormControl-root {
+        margin-bottom: 30px;
+    }
+    .subject-line {
+        width: 810px;
+    }   
+    .email-line {
+        width: 810px;
+    }
+    .name-line {
+        width: 810px;
+    }
+    .message-line { 
+        width: 810px;;
+    }
+}
+
 /* Iphone x */
 @media only screen and (max-width:376px) and (max-height:813px) {
     .NavbarItems {
@@ -1413,6 +2695,9 @@
         position: absolute;
         right: 17px;
         top: 830px;
+        font-size: 18px;
+    }
+    .about-me-p { 
         font-size: 18px;
     }
     
@@ -1565,22 +2850,22 @@
     .github-h {
         position: absolute;
         left: 85px;
-        top: 258px;
+        top: 252px;
     }
     .instagram-h {
         position: absolute;
         left: 85px;
-        top: 199px;
+        top: 194px;
     }
     .facebook-h {
         position: absolute;
         left: 85px;
-        top: 143px;
+        top: 136px;
     }
     .linkedin-h {
         position: absolute;
-        left: 85px;
-        top: 100px;
+        left: 84px;
+        top: 83px;
     }
     .email-container {
         width: 80%;
@@ -1939,6 +3224,9 @@
         top: 830px;
         font-size: 19px;
     }
+    .about-me-p {
+        font-size: 19px;
+    }
     
     .about-me-text h6 {
         padding-top: 20px;
@@ -2188,11 +3476,14 @@
         top: 679px;
         font-size: 14px;
     }
+    .about-me-p {
+        font-size: 14px;
+    }
     
     .about-me-text h6 {
         padding-top: 4px;
         padding-bottom: 4px;
-        font-size: 14px;
+        font-size: 12.5px;
     }
     .container-between-about-work {
         height: 400px;
@@ -2459,6 +3750,9 @@
         top: 830px;
         font-size: 18px;
     }
+    .about-me-p {
+        font-size: 18px;
+    }
     
     .about-me-text h6 {
         padding-top: 20px;
@@ -2609,22 +3903,22 @@
     .github-h {
         position: absolute;
         left: 85px;
-        top: 258px;
+        top: 255px;
     }
     .instagram-h {
         position: absolute;
         left: 85px;
-        top: 199px;
+        top: 195px;
     }
     .facebook-h {
         position: absolute;
         left: 85px;
-        top: 143px;
+        top: 138px;
     }
     .linkedin-h {
         position: absolute;
         left: 85px;
-        top: 100px;
+        top: 86px;
     }
     .email-container {
         width: 80%;
@@ -3172,7 +4466,258 @@
 
 /* IPhone 5/SE Landscape */ 
 @media only screen and (max-width:569px) and (max-height: 321px) {
-
+    .tsparticles-canvas-el {
+        height: 476px;
+    }
+    .first-parallax {
+        height: 476px;
+        background-color:black;
+    }
+    .home-container{
+        width: 96%;
+        position: absolute;
+        top: 81%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .home-h1 {
+        font-size: 32px;
+        color: white;
+    }
+    .home-h1-firstname {
+        font-size: 68px;
+        color: white;
+    }
+    .home-h1-lastname {
+        font-size: 68px;
+        color: white;
+    }
+    .about-me-container {
+        height: 551px;
+        background-color:white ;
+        backface-visibility: hidden;
+        color: black;
+        display: flex;
+    
+    }
+    
+    .about-me-container img{
+        width: 398px;
+        position: absolute;
+        left: 90px;
+        top: 790px;
+        border-radius: 2px;
+    }
+    
+    .about-me-text {
+        width: 537px;
+        text-align: left;
+        position: absolute;
+        right: 13px;
+        top: 560px;
+        font-size: 14px;
+    }
+    .about-me-p {
+        font-size: 14.5px;;
+    }
+    
+    .about-me-text h6 {
+        /* padding-top: 4px;
+        padding-bottom: 4px; */
+        font-size: 13.5px;
+    }
+    .container-between-about-work {
+        height: 400px;
+        width: 100%;
+        background-color: black;
+    }
+    .second-qoute {
+        position: absolute;
+        top: 1204px;
+        left: 41px;
+        color: white;
+        width: 500px;
+        font-size: 26px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .work-container {
+        height: 970px;
+    }
+    .work-text-1 {
+        width: 541px;
+        position: absolute;
+        left: 12px;
+        top: 1517px;
+    }
+    .work-h1 {
+        font-size: 36px;
+    }
+    .work-h3 {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .work-text-1 a {
+        color: black;
+        padding-top: 2px;
+        left: -10px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .work-img img {
+        width: 100%;
+        padding-top: 18px;
+        height: 250px;
+    }
+    .work-p {
+        padding-top: 8px;
+        font-size: 20px;
+    }
+    .work-text-2 {
+        top: 2026px;
+        position: absolute;
+        right: 11px;
+        width: 545px;
+    }
+    .work-h6-2 {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .work-text-2 a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+        left: -9px;
+    }
+    .img-2 {
+        width: 100%;
+        padding-top: 18px;
+        height: 249px;
+    }
+    .work-p-2 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .container-between-work-skills {
+        height: 400px;
+        width: 100%;
+        background-color: black;
+    }
+    .third-qoute {
+        color: white;
+        position: absolute;
+        top: 2574px;
+        width: 414px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+        left: 84px;
+    }
+    .skills-container {
+        height: 855px;
+    }
+    .skills-text {
+        width: 395px;
+        position: absolute;
+        left: 16px;
+        top: 3910px;
+    }
+    .skills-hr {
+        position: relative;
+    }
+    .skills-h1 {
+        font-size: 36px;
+        position: absolute;
+        top: -1029px;
+    }
+    .skills-images-table {
+        position: absolute;
+        top: 2931px;
+        left: 10px;
+    }
+    .skills-images-table ul {
+        display: table;
+    }
+    .skills-images-table img {
+        width: 124px;
+        padding: 7px;
+    }
+    .container-between-skills-contact {
+        height: 401px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 3504px;
+    }
+    .fourth-qoute {
+        position: absolute;
+        top: 97px;
+        color: white;
+        font-size: 34px;
+        font-weight: 100;
+        left: 92px;
+        width: 400px;
+        text-align: center;
+    }
+    .contact-container {
+        height: 850px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 3901px;
+    }
+    .contact-text {
+        width: 537px;
+        left: 16px;
+        position: absolute;
+        top: 10px;
+    }
+    .github-h {
+        position: absolute;
+        left: 85px;
+        top: 252px;
+        font-size: 26px;
+    }
+    .instagram-h {
+        position: absolute;
+        left: 85px;
+        top: 193px;
+        font-size: 26px;
+    }
+    .facebook-h {
+        position: absolute;
+        left: 85px;
+        top: 137px;
+        font-size: 26px;
+    }
+    .linkedin-h {
+        position: absolute;
+        left: 85px;
+        top: 83px;
+        font-size: 26px;
+    }
+    .email-container {
+        width: 96%;
+        position: absolute;
+        top: 335px;
+        left: 17px;
+    } 
+    div.MuiFormControl-root {
+        margin-bottom: 30px;
+    }
+    .subject-line {
+        width: 540px;
+    }   
+    .email-line {
+        width: 540px;
+    }
+    .name-line {
+        width: 540px;
+    }
+    .message-line { 
+        width: 540px;;
+    }
 }
 
 
