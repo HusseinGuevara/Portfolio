@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Router>
-        <Homepage path="/" />
+        <Homepage path="/portfolio" />
         {/* <Redirect from="/" to="/homepage" noThrow="true" /> */}
 
 
