@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d82335cc.chunk.css",
+    "main.js": "/portfolio/static/js/main.44179329.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.44179329.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.85382d11.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.85382d11.js.map",
+    "static/js/2.bafb86fb.chunk.js": "/portfolio/static/js/2.bafb86fb.chunk.js",
+    "static/js/2.bafb86fb.chunk.js.map": "/portfolio/static/js/2.bafb86fb.chunk.js.map",
+    "static/js/3.6ab849cc.chunk.js": "/portfolio/static/js/3.6ab849cc.chunk.js",
+    "static/js/3.6ab849cc.chunk.js.map": "/portfolio/static/js/3.6ab849cc.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.d82335cc.chunk.css.map": "/portfolio/static/css/main.d82335cc.chunk.css.map",
+    "static/js/2.bafb86fb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.bafb86fb.chunk.js.LICENSE.txt",
+    "static/media/Logo.a4e349a1.png": "/portfolio/static/media/Logo.a4e349a1.png",
+    "static/media/bootstrap.8b62754c.jpg": "/portfolio/static/media/bootstrap.8b62754c.jpg",
+    "static/media/css.44958ff5.png": "/portfolio/static/media/css.44958ff5.png",
+    "static/media/django.c5b7e0bd.png": "/portfolio/static/media/django.c5b7e0bd.png",
+    "static/media/express.e1b119a3.png": "/portfolio/static/media/express.e1b119a3.png",
+    "static/media/github.9aa37af1.png": "/portfolio/static/media/github.9aa37af1.png",
+    "static/media/html.dce5dd57.png": "/portfolio/static/media/html.dce5dd57.png",
+    "static/media/hussein_bridege.4d226725.jpg": "/portfolio/static/media/hussein_bridege.4d226725.jpg",
+    "static/media/java.0538de72.gif": "/portfolio/static/media/java.0538de72.gif",
+    "static/media/javalogo.628c1fff.png": "/portfolio/static/media/javalogo.628c1fff.png",
+    "static/media/material.457e3595.png": "/portfolio/static/media/material.457e3595.png",
+    "static/media/mongodb-logo.7d94f6f0.png": "/portfolio/static/media/mongodb-logo.7d94f6f0.png",
+    "static/media/mysql.028410ab.png": "/portfolio/static/media/mysql.028410ab.png",
+    "static/media/node.a97f05d2.png": "/portfolio/static/media/node.a97f05d2.png",
+    "static/media/postman-logo.54c361e0.png": "/portfolio/static/media/postman-logo.54c361e0.png",
+    "static/media/python.6d0c7cee.png": "/portfolio/static/media/python.6d0c7cee.png",
+    "static/media/reactjs.8bce2aee.png": "/portfolio/static/media/reactjs.8bce2aee.png",
+    "static/media/spring.295d7a37.png": "/portfolio/static/media/spring.295d7a37.png",
+    "static/media/tmdb.25a04414.gif": "/portfolio/static/media/tmdb.25a04414.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85382d11.js",
+    "static/js/2.bafb86fb.chunk.js",
+    "static/css/main.d82335cc.chunk.css",
+    "static/js/main.44179329.chunk.js"
+  ]
+}
