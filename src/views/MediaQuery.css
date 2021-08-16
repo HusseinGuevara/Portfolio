@@ -1,5 +1,263 @@
 /* Media Querys */
 
+/* Laptop  */
+
+
+
+@media only screen and (max-width: 1537px) and (max-height: 755px) {
+    .tsparticles-canvas-el {
+        height: 730px;
+    }
+    .first-parallax {
+        height: 730px;
+        background-color:black;
+    }
+    .home-container{
+        width: 96%;
+        position: absolute;
+        top: 55%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .home-h1 {
+        font-size: 48px;
+        color: white;
+    }
+    .home-h1-firstname {
+        font-size: 108px;
+        color: white;
+    }
+    .home-h1-lastname {
+        font-size: 108px;
+        color: white;
+    }
+    .about-me-container {
+        height: 537px;
+        background-color:white ;
+        backface-visibility: hidden;
+        color: black;
+        display: flex;
+    
+    }
+    
+    .about-me-container img{
+        width: 673px;
+        position: absolute;
+        left: 16px;
+        top: 822px;
+        border-radius: 2px;
+    }
+    
+    .about-me-text {
+        width: 806px;
+        text-align: left;
+        position: absolute;
+        right: 15px;
+        top: 814px;
+        font-size: 20px;
+    }
+    .about-me-p {
+        font-size: 30px;
+    }
+    .about-me-text h6 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 26px;
+    }
+    .container-between-about-work {
+        height: 500px;
+        width: 100%;
+        background-color: black;
+    }
+    .second-qoute {
+        position: absolute;
+        top: 1413px;
+        left: 509px;
+        color: white;
+        width: 500px;
+        font-size: 34px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .work-container {
+        height: 704px;
+    }
+    .work-text-1 {
+        width: 730px;
+        position: absolute;
+        left: 22px;
+        top: 1848px;
+    }
+    .work-h1 {
+        font-size: 36px;
+    }
+    .work-h3 {
+        padding-top: 10px;
+        font-size: 24px;
+    }
+    .work-text-1 a {
+        color: black;
+        padding-top: 2px;
+        left: -10px;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    .work-img img {
+        width: 100%;
+        padding-top: 18px;
+        
+    }
+    .work-p {
+        padding-top: 8px;
+        font-size: 24px;
+    }
+    .work-text-2 {
+        top: 1891px;
+        position: absolute;
+        right: 20px;
+        width: 730px;
+    }
+    .work-h6-2 {
+        font-size: 24px;
+        padding-top: 12px;
+    }
+    .work-text-2 a {
+        color: black;
+        text-decoration: none;
+        font-size: 22px;
+        left: -9px;
+    }
+    .img-2 {
+        width: 100%;
+        padding-top: 18px;
+    }
+    .work-p-2 {
+        font-size: 24px;
+        padding-top: 5px;
+    }
+    .container-between-work-skills {
+        height: 552px;
+        width: 100%;
+        background-color: black;
+    }
+    .third-qoute {
+        color: white;
+        position: absolute;
+        top: 2626px;
+        width: 414px;
+        font-size: 43px;
+        font-weight: 100;
+        text-align: center;
+        left: 485px;
+    }
+    .skills-container {
+        height: 855px;
+    }
+    .skills-text {
+        width: 395px;
+        position: absolute;
+        left: 16px;
+        top: 4052px;
+    }
+    .skills-hr {
+        position: relative;
+    }
+    .skills-h1 {
+        font-size: 36px;
+        position: absolute;
+        top: -948px;
+    }
+    .skills-images-table {
+        position: absolute;
+        top:3220px;
+        left: 15px;
+    }
+    .skills-images-table ul {
+        display: table;
+    }
+    .skills-images-table img {
+        width: 165px;
+        padding: 7px;
+    }
+    .container-between-skills-contact {
+        height: 577px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        top: 3622px;
+    }
+    .fourth-qoute {
+        position: absolute;
+        top: 146px;
+        color: white;
+        font-size: 44px;
+        font-weight: 100;
+        left: 510px;
+        width: 400px;
+        text-align: center;
+
+    }
+    .contact-container {
+        height: 850px;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        top: 4200px;
+    }
+    .contact-text {
+        width: 1485px;
+        left: 16px;
+        position: absolute;
+        top: 10px;
+    }
+    .github-h {
+        position: absolute;
+        left: 85px;
+        top: 252px;
+        font-size: 26px;
+    }
+    .instagram-h {
+        position: absolute;
+        left: 85px;
+        top: 193px;
+        font-size: 26px;
+    }
+    .facebook-h {
+        position: absolute;
+        left: 85px;
+        top: 137px;
+        font-size: 26px;
+    }
+    .linkedin-h {
+        position: absolute;
+        left: 85px;
+        top: 83px;
+        font-size: 26px;
+    }
+    .email-container {
+        width: 96%;
+        position: absolute;
+        top: 335px;
+        left: 17px;
+    } 
+    div.MuiFormControl-root {
+        margin-bottom: 30px;
+    }
+    .subject-line {
+        width: 1485px;
+    }   
+    .email-line {
+        width: 1485px;
+    }
+    .name-line {
+        width: 1485px;
+    }
+    .message-line { 
+        width: 1485px;;
+    }
+} 
+
 /* IPad Pro */
 @media only screen and (max-width: 1025px) and (max-height:1367px) {
     .tsparticles-canvas-el {
@@ -311,8 +569,8 @@
         font-size: 28px;
     }
     .about-me-text h6 {
-        padding-top: 10px;
-        padding-bottom: 11px;
+        padding-top: 0px;
+        padding-bottom: 0px;
         font-size: 26px;
     }
     .container-between-about-work {
@@ -1312,7 +1570,7 @@
         background-color:black;
     }
     .home-container{
-        width: 100%;
+        width: 96%;
         position: absolute;
         top: 56%;
         left: 52%;
@@ -1629,7 +1887,7 @@
         width: 380px;
         position: absolute;
         left: 16px;
-        top: 1308px;
+        top: 1323px;
         border-radius: 2px;
     }
     
@@ -2163,7 +2421,7 @@
         width: 358px;
         position: absolute;
         left: 16px;
-        top: 1332px;
+        top: 1349px;
         border-radius: 2px;
     }
     

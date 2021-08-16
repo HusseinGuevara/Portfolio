@@ -1,4 +1,4 @@
-import hussein from "../img/hussein.png";
+// import hussein from "../img/hussein.png";
 import {motion, useAnimation} from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
